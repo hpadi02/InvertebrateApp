@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1AB4FA3610E981F85A49DE3F /* Pods_Invertebrate_InvertebrateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185FA7FDA3A1D4E47D4EF3FF /* Pods_Invertebrate_InvertebrateUITests.framework */; };
+		33584A3B7F116CADE35ED401 /* Pods_InvertebrateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7815EB761987E35B5DAAA8 /* Pods_InvertebrateTests.framework */; };
+		9462B30A2CFBA29F00F43E4F /* Roboflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9462B3092CFBA29F00F43E4F /* Roboflow.framework */; };
+		C3F925D118244BCF3C26CAD2 /* Pods_Invertebrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1C370979791483589BBD26 /* Pods_Invertebrate.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9447CD8F2CFACC3500EBD846 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +31,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BF8DCDC7C11AC08CFFA6491 /* Pods-InvertebrateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvertebrateTests.debug.xcconfig"; path = "Target Support Files/Pods-InvertebrateTests/Pods-InvertebrateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		185FA7FDA3A1D4E47D4EF3FF /* Pods_Invertebrate_InvertebrateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Invertebrate_InvertebrateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4517EFDA384043F5E348092A /* Pods-InvertebrateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvertebrateTests.release.xcconfig"; path = "Target Support Files/Pods-InvertebrateTests/Pods-InvertebrateTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F7815EB761987E35B5DAAA8 /* Pods_InvertebrateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InvertebrateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6729857566EF63618B209B58 /* Pods-Invertebrate-InvertebrateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invertebrate-InvertebrateUITests.debug.xcconfig"; path = "Target Support Files/Pods-Invertebrate-InvertebrateUITests/Pods-Invertebrate-InvertebrateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A39A8E3F83C15BA43FB9D43 /* Pods-Invertebrate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invertebrate.release.xcconfig"; path = "Target Support Files/Pods-Invertebrate/Pods-Invertebrate.release.xcconfig"; sourceTree = "<group>"; };
+		84EB85C80ED4663CE1AC4E60 /* Pods-Invertebrate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invertebrate.debug.xcconfig"; path = "Target Support Files/Pods-Invertebrate/Pods-Invertebrate.debug.xcconfig"; sourceTree = "<group>"; };
 		9447CD7E2CFACC3400EBD846 /* Invertebrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invertebrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9447CD8E2CFACC3500EBD846 /* InvertebrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvertebrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9447CD982CFACC3500EBD846 /* InvertebrateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvertebrateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9462B2C02CFB92BC00F43E4F /* Roboflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Roboflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9462B3092CFBA29F00F43E4F /* Roboflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Roboflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1C370979791483589BBD26 /* Pods_Invertebrate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Invertebrate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7E5C887EC82FC605D07189 /* Pods-Invertebrate-InvertebrateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invertebrate-InvertebrateUITests.release.xcconfig"; path = "Target Support Files/Pods-Invertebrate-InvertebrateUITests/Pods-Invertebrate-InvertebrateUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9462B30A2CFBA29F00F43E4F /* Roboflow.framework in Frameworks */,
+				C3F925D118244BCF3C26CAD2 /* Pods_Invertebrate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33584A3B7F116CADE35ED401 /* Pods_InvertebrateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB4FA3610E981F85A49DE3F /* Pods_Invertebrate_InvertebrateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +101,8 @@
 				9447CD912CFACC3500EBD846 /* InvertebrateTests */,
 				9447CD9B2CFACC3500EBD846 /* InvertebrateUITests */,
 				9447CD7F2CFACC3400EBD846 /* Products */,
+				DDBDC5A8522C31B6B36FC009 /* Pods */,
+				C0E0D3B21F7293A1E9EB0A87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +116,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C0E0D3B21F7293A1E9EB0A87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9462B3092CFBA29F00F43E4F /* Roboflow.framework */,
+				9462B2C02CFB92BC00F43E4F /* Roboflow.framework */,
+				AC1C370979791483589BBD26 /* Pods_Invertebrate.framework */,
+				185FA7FDA3A1D4E47D4EF3FF /* Pods_Invertebrate_InvertebrateUITests.framework */,
+				5F7815EB761987E35B5DAAA8 /* Pods_InvertebrateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDBDC5A8522C31B6B36FC009 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84EB85C80ED4663CE1AC4E60 /* Pods-Invertebrate.debug.xcconfig */,
+				6A39A8E3F83C15BA43FB9D43 /* Pods-Invertebrate.release.xcconfig */,
+				6729857566EF63618B209B58 /* Pods-Invertebrate-InvertebrateUITests.debug.xcconfig */,
+				CB7E5C887EC82FC605D07189 /* Pods-Invertebrate-InvertebrateUITests.release.xcconfig */,
+				0BF8DCDC7C11AC08CFFA6491 /* Pods-InvertebrateTests.debug.xcconfig */,
+				4517EFDA384043F5E348092A /* Pods-InvertebrateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9447CDA22CFACC3500EBD846 /* Build configuration list for PBXNativeTarget "Invertebrate" */;
 			buildPhases = (
+				21AE6554003CBA0F2CD64C46 /* [CP] Check Pods Manifest.lock */,
 				9447CD7A2CFACC3400EBD846 /* Sources */,
 				9447CD7B2CFACC3400EBD846 /* Frameworks */,
 				9447CD7C2CFACC3400EBD846 /* Resources */,
+				88D8813A3E90FF51EEAEB7D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +162,6 @@
 				9447CD802CFACC3400EBD846 /* Invertebrate */,
 			);
 			name = Invertebrate;
-			packageProductDependencies = (
-			);
 			productName = Invertebrate;
 			productReference = 9447CD7E2CFACC3400EBD846 /* Invertebrate.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9447CDA52CFACC3500EBD846 /* Build configuration list for PBXNativeTarget "InvertebrateTests" */;
 			buildPhases = (
+				3D7E2C10E5170A533EAF3015 /* [CP] Check Pods Manifest.lock */,
 				9447CD8A2CFACC3500EBD846 /* Sources */,
 				9447CD8B2CFACC3500EBD846 /* Frameworks */,
 				9447CD8C2CFACC3500EBD846 /* Resources */,
@@ -134,8 +184,6 @@
 				9447CD912CFACC3500EBD846 /* InvertebrateTests */,
 			);
 			name = InvertebrateTests;
-			packageProductDependencies = (
-			);
 			productName = InvertebrateTests;
 			productReference = 9447CD8E2CFACC3500EBD846 /* InvertebrateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9447CDA82CFACC3500EBD846 /* Build configuration list for PBXNativeTarget "InvertebrateUITests" */;
 			buildPhases = (
+				53779E5560243329DCFCB2DE /* [CP] Check Pods Manifest.lock */,
 				9447CD942CFACC3500EBD846 /* Sources */,
 				9447CD952CFACC3500EBD846 /* Frameworks */,
 				9447CD962CFACC3500EBD846 /* Resources */,
+				8CE2AE8E1ADA2E043EB6E1E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +207,6 @@
 				9447CD9B2CFACC3500EBD846 /* InvertebrateUITests */,
 			);
 			name = InvertebrateUITests;
-			packageProductDependencies = (
-			);
 			productName = InvertebrateUITests;
 			productReference = 9447CD982CFACC3500EBD846 /* InvertebrateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +278,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21AE6554003CBA0F2CD64C46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Invertebrate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D7E2C10E5170A533EAF3015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InvertebrateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53779E5560243329DCFCB2DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Invertebrate-InvertebrateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D8813A3E90FF51EEAEB7D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Invertebrate/Pods-Invertebrate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Invertebrate/Pods-Invertebrate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Invertebrate/Pods-Invertebrate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE2AE8E1ADA2E043EB6E1E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Invertebrate-InvertebrateUITests/Pods-Invertebrate-InvertebrateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Invertebrate-InvertebrateUITests/Pods-Invertebrate-InvertebrateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Invertebrate-InvertebrateUITests/Pods-Invertebrate-InvertebrateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9447CD7A2CFACC3400EBD846 /* Sources */ = {
@@ -390,12 +541,14 @@
 		};
 		9447CDA32CFACC3500EBD846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EB85C80ED4663CE1AC4E60 /* Pods-Invertebrate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Invertebrate/Preview Content\"";
+				DEVELOPMENT_TEAM = 35346WXZ4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -418,12 +571,14 @@
 		};
 		9447CDA42CFACC3500EBD846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A39A8E3F83C15BA43FB9D43 /* Pods-Invertebrate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Invertebrate/Preview Content\"";
+				DEVELOPMENT_TEAM = 35346WXZ4F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -446,6 +601,7 @@
 		};
 		9447CDA62CFACC3500EBD846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF8DCDC7C11AC08CFFA6491 /* Pods-InvertebrateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +620,7 @@
 		};
 		9447CDA72CFACC3500EBD846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4517EFDA384043F5E348092A /* Pods-InvertebrateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +639,7 @@
 		};
 		9447CDA92CFACC3500EBD846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6729857566EF63618B209B58 /* Pods-Invertebrate-InvertebrateUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +656,7 @@
 		};
 		9447CDAA2CFACC3500EBD846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7E5C887EC82FC605D07189 /* Pods-Invertebrate-InvertebrateUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

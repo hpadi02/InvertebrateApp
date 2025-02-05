@@ -1,0 +1,6 @@
+framework module Pods_Invertebrate {
+  umbrella header "Pods-Invertebrate-umbrella.h"
+
+  export *
+  module * { export * }
+}
